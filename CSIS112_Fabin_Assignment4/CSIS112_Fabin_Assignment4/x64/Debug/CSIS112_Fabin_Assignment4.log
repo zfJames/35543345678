@@ -1,0 +1,12 @@
+﻿  GradeBook.cpp
+c:\users\zach fabin\desktop\csis112assignments\csis112_fabin_assignment4\csis112_fabin_assignment4\student.h(12): error C2504: 'GradeBook': base class undefined
+c:\users\zach fabin\desktop\csis112assignments\csis112_fabin_assignment4\csis112_fabin_assignment4\gradebook.cpp(33): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  GradeBookDriver.cpp
+  GradeBookFunctions.cpp
+c:\users\zach fabin\desktop\csis112assignments\csis112_fabin_assignment4\csis112_fabin_assignment4\student.h(12): error C2504: 'GradeBook': base class undefined
+  Student.cpp
+c:\users\zach fabin\desktop\csis112assignments\csis112_fabin_assignment4\csis112_fabin_assignment4\gradebook.h(31): error C2065: 'Student': undeclared identifier
+c:\users\zach fabin\desktop\csis112assignments\csis112_fabin_assignment4\csis112_fabin_assignment4\gradebook.h(31): error C2923: 'std::vector': 'Student' is not a valid template type argument for parameter '_Ty'
+c:\users\zach fabin\desktop\csis112assignments\csis112_fabin_assignment4\csis112_fabin_assignment4\gradebook.h(31): error C2903: 'allocator': symbol is neither a class template nor a function template
+c:\users\zach fabin\desktop\csis112assignments\csis112_fabin_assignment4\csis112_fabin_assignment4\gradebook.h(31): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+  Generating Code...

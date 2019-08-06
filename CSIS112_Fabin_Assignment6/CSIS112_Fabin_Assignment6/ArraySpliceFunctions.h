@@ -4,7 +4,10 @@
 
 #pragma once
 #include "Utilities.h"
+int getArraySize();
 int * createArray(const int size);
-int getArraySize(const int arrayNum);
-void deleteArrays(int *a, int *b, int *c);
 int * splice(int *a, int *b, const int aSize, const int bSize, const int initSz);
+void printArrays(const int*array, const int arraySize);
+void deleteArrays(int *a, int *b, int *c);
+
+// followed in ArraySpliceFunctions.cpp by the functions defined in Utilities.h

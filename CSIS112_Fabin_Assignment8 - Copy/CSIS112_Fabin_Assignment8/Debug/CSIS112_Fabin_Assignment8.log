@@ -1,0 +1,21 @@
+﻿  Cat.cpp
+c:\users\zach fabin\desktop\csis112assignments\csis112_fabin_assignment8 - copy\csis112_fabin_assignment8\cat.cpp(5): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Dog.cpp
+c:\users\zach fabin\desktop\csis112assignments\csis112_fabin_assignment8 - copy\csis112_fabin_assignment8\dog.cpp(5): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Driver.cpp
+c:\users\zach fabin\desktop\csis112assignments\csis112_fabin_assignment8 - copy\csis112_fabin_assignment8\driver.cpp(48): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Horse.cpp
+c:\users\zach fabin\desktop\csis112assignments\csis112_fabin_assignment8 - copy\csis112_fabin_assignment8\horse.cpp(5): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Mammal.cpp
+  Pig.cpp
+c:\users\zach fabin\desktop\csis112assignments\csis112_fabin_assignment8 - copy\csis112_fabin_assignment8\pig.cpp(5): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+Dog.obj : error LNK2005: "void __cdecl Speak(void)" (?Speak@@YAXXZ) already defined in Cat.obj
+Horse.obj : error LNK2005: "void __cdecl Speak(void)" (?Speak@@YAXXZ) already defined in Cat.obj
+Pig.obj : error LNK2005: "void __cdecl Speak(void)" (?Speak@@YAXXZ) already defined in Cat.obj
+Cat.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Cat::Speak(void)" (?Speak@Cat@@UAEXXZ)
+Dog.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Dog::Speak(void)" (?Speak@Dog@@UAEXXZ)
+Horse.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Horse::Speak(void)" (?Speak@Horse@@UAEXXZ)
+Mammal.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Mammal::Speak(void)" (?Speak@Mammal@@UAEXXZ)
+Pig.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Pig::Speak(void)" (?Speak@Pig@@UAEXXZ)
+C:\Users\Zach Fabin\Desktop\csis112assignments\CSIS112_Fabin_Assignment8 - Copy\Debug\CSIS112_Fabin_Assignment8.exe : fatal error LNK1120: 5 unresolved externals
